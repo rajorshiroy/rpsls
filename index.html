@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+<div class="score-board">
+  <div class="badge" id="user-label">USER</div>
+  <div class="badge" id="computer-label">COMP</div>
+  <span id="user-score">0</span> : <span id="computer-score">0</span>
+</div>
+
+<div class="action-msg">
+  <p>Make your move</p>
+</div>
+
+<div class="choices">
+  <div class="choice" id="rock" >
+    <img src="images/rock.png" alt="rock">
+    <div>
+      <img class="selector-icon" id="rock-selector" src="icons/none-icon.png" >
+    </div>
+  </div>
+  <div class="choice" id="paper">
+    <img src="images/paper.png" alt="paper">
+    <div>
+      <img class="selector-icon" id="paper-selector" src="icons/none-icon.png" >
+    </div>
+  </div>
+  <div class="choice" id="scissors">
+    <img src="images/scissors.png" alt="scissors">
+    <div>
+      <img class="selector-icon" id="scissors-selector" src="icons/none-icon.png" >
+    </div>
+  </div>
+  <div class="choice" id="lizard">
+    <img src="images/lizard.png" alt="lizard">
+    <div>
+      <img class="selector-icon" id="lizard-selector" src="icons/none-icon.png" >
+    </div>
+  </div>
+  <div class="choice" id="spock">
+    <img src="images/spock.png" alt="spock">
+    <div>
+      <img class="selector-icon" id="spock-selector" src="icons/none-icon.png" >
+    </div>
+  </div>
+</div>
+
+<div>
+  <p id="result">Choose any move from the five options</p>
+</div>
+<script src="app.js">
+
+</script>
+  </body>
+</html>
